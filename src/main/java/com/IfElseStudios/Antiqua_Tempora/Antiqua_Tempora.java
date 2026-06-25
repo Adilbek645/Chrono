@@ -12,5 +12,8 @@ public class Antiqua_Tempora
 
     private static final Logger LOGGER = LogManager.getLogger();
 
+    public Antiqua_Tempora()
+    {
 
+    }
 }
