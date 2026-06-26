@@ -1,0 +1,15 @@
+{
+  "name": "antiqua_tempora_mod:arthur_base_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "antiqua_tempora_mod:arthur_base",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

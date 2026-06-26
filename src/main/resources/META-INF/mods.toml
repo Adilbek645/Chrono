@@ -1,17 +1,17 @@
-# Технические настройки загрузчика (лучше оставить переменные ${...})
+# Технические настройки загрузчика
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
 
 # Ссылки (будут кликабельными в меню модов)
-issueTrackerURL="https://github.com/ваша-студия/antiqua-tempora/issues" # Ссылка, куда игроки могут писать о багах
-displayURL="https://curseforge.com/minecraft/mc-mods/ваша-ссылка" # Главная страница вашего мода (можно пока закомментировать, если её нет)
+issueTrackerURL="https://github.com/ваша-студия/antiqua-tempora/issues"
+#displayURL="https://curseforge.com/minecraft/mc-mods/ваша-ссылка"
 
 # Главный блок информации о вашем моде
 [[mods]]
-modId="antiqua_tempora_mod" # ID вашего мода (обязательно строчными буквами и через подчеркивание)
+modId="antiqua_tempora_mod"
 version="${mod_version}"
-displayName="Antiqua Tempora" # Красивое название, которое увидит игрок в меню
+displayName="Antiqua Tempora"
 
 # --- НАСТРОЙКИ КРАСОТЫ ---
 
@@ -22,8 +22,7 @@ logoFile="logo.png"
 credits="Спасибо всем, кто играет с нашими модами! Создано If-Else Studios."
 authors="Ваши ники (например: Alex & Zen)"
 
-# Описание мода. Переменная подтянет его из gradle.properties,
-# но можно написать текст прямо здесь, между тройными кавычками:
+# Описание мода.
 description='''
 Добро пожаловать в Antiqua Tempora!
 
