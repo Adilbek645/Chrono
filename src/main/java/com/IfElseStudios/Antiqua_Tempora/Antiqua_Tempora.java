@@ -1,6 +1,9 @@
 package com.IfElseStudios.Antiqua_Tempora;
 
+import com.IfElseStudios.Antiqua_Tempora.init.ModItems;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,8 +15,8 @@ public class Antiqua_Tempora
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public Antiqua_Tempora()
-    {
-
+    public Antiqua_Tempora() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.ITEMS.register(modEventBus);
     }
 }
