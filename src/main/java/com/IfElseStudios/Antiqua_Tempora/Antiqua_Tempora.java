@@ -18,5 +18,6 @@ public class Antiqua_Tempora
     public Antiqua_Tempora() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(modEventBus);
+        com.IfElseStudios.Antiqua_Tempora.init.ModEntities.ENTITIES.register(modEventBus);
     }
 }
